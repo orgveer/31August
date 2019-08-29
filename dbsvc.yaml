@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  labels:
+    hitapp: dbtutorial
+spec:
+  selector:
+    hitapp: dbtutorial
+  ports:
+   - port: 6379
+     targetPort: 6379
