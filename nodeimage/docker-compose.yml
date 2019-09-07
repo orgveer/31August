@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    container_name: veerwebapp
+    build: . # Use the DockerFile 
+    ports:
+     - "5000:5000"
+    links: 
+      - redis
+  redis:
+    container_name: veerredis
+    image: redis
+    expose:
+      - 6379
+    ports:
+     - "6379:6379"  

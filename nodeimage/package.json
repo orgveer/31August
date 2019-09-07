@@ -1,0 +1,13 @@
+{
+    "name": "nodewebapp",
+    "version": "1.0.0",
+    "description": "Docker and Kubernetes meetup",
+    "main": "app.js",
+    "scripts": {
+    },
+    "author": "IBM",
+    "dependencies": {
+      "express": "x.x.x",
+      "redis": "x.x.x"
+    }
+  }

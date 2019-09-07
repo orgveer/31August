@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: web
-      image: us.icr.io/vthink/nodewebapp
+      image: us.icr.io/vthink/nodewebapp:v1
       ports:
         - containerPort: 5000
           protocol: TCP
